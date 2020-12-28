@@ -7,8 +7,8 @@ namespace GameOfLife.Core
 	/// </summary>
 	public class BooleanArrayGameState : IGameState
 	{
-		private readonly Boolean[,] _currentState;
-		private readonly Boolean[,] _nextState;
+		private Boolean[,] _currentState;
+		private Boolean[,] _nextState;
 
 		public BooleanArrayGameState()
 		{
@@ -45,7 +45,9 @@ namespace GameOfLife.Core
 				}
 			}
 
-			Array.Copy(_nextState, _currentState, _nextState.Length);
+			var old = _currentState;
+			_currentState = _nextState;
+			_nextState    = old;
 		}
 
 		public void SetIsAlive(UInt16 x, UInt16 y, Boolean isAlive)
