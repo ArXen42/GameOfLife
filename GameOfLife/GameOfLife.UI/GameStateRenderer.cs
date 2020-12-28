@@ -6,7 +6,7 @@ using OpenCvSharp.WpfExtensions;
 
 namespace GameOfLife.UI
 {
-	public class GameStateRenderer
+	public sealed class GameStateRenderer : IDisposable
 	{
 		public const Int32 CellSize   = 16;
 		public const Int32 CellsCount = 64;
@@ -52,6 +52,11 @@ namespace GameOfLife.UI
 			var bitmapSource = _img.ToBitmapSource();
 			bitmapSource.Freeze();
 			return bitmapSource;
+		}
+
+		public void Dispose()
+		{
+			_img?.Dispose();
 		}
 	}
 }

@@ -26,41 +26,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63f1fc85-84d1-4fc2-a791-200876ffafe0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GameOfLife.Core/BooleanArrayGameState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameOfLife.UI/GameStateRenderer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleCGoL/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleCGoL/.idea/.idea.ConsoleCGoL/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleCGoL/.idea/.idea.ConsoleCGoL/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleCGoL/.idea/.idea.ConsoleCGoL/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleCGoL/.idea/.idea.ConsoleCGoL/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleCGoL/.idea/.idea.ConsoleCGoL/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleCGoL/.idea/.idea.ConsoleCGoL/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleCGoL/.idea/.idea.ConsoleCGoL/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleCGoL/CGoLUI/App.xaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleCGoL/CGoLUI/App.xaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleCGoL/CGoLUI/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleCGoL/CGoLUI/CGoLUI.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleCGoL/CGoLUI/MainWindow.xaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleCGoL/CGoLUI/MainWindow.xaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleCGoL/ConsoleCGoL.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleCGoL/ConsoleCGoL.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleCGoL/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameOfLife/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameOfLife/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameOfLife/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameOfLife/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameOfLife/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameOfLife/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameOfLife.Core/Board.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameOfLife.Core/Cell.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameOfLife.Core/GameOfLife.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GameOfLife.Core/GameOfLife.Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameOfLife.Core/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameOfLife.UI/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameOfLife.UI/App.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameOfLife.UI/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameOfLife.UI/AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameOfLife.UI/GameOfLife.UI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GameOfLife.UI/GameOfLife.UI.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameOfLife.UI/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/GameOfLife.UI/MainWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameOfLife.UI/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameOfLife.UI/MainWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameOfLife.sln" beforeDir="false" afterPath="$PROJECT_DIR$/GameOfLife.sln" afterDir="false" />
-    </list>
+    <list default="true" id="63f1fc85-84d1-4fc2-a791-200876ffafe0" name="Default Changelist" comment="Example" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +35,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/r/GameOfLife/GameOfLife/GameOfLife.Core/BooleanArrayGameState.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -76,11 +45,12 @@
         <option value="$PROJECT_DIR$/GameOfLife.Core/Class1.cs" />
         <option value="$PROJECT_DIR$/GameOfLife.Core/IGameState.cs" />
         <option value="$PROJECT_DIR$/GameOfLife.UI/MainViewModel.cs" />
-        <option value="$PROJECT_DIR$/GameOfLife.Core/BooleanArrayGameState.cs" />
         <option value="$PROJECT_DIR$/GameOfLife.ConsoleUI/Program.cs" />
         <option value="$PROJECT_DIR$/GameOfLife.UI/GameStateRenderer.cs" />
         <option value="$PROJECT_DIR$/GameOfLife.UI/MainWindow.xaml.cs" />
         <option value="$PROJECT_DIR$/GameOfLife.UI/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/GameOfLife.UI/GameOfLife.UI.csproj" />
+        <option value="$PROJECT_DIR$/GameOfLife.Core/BooleanArrayGameState.cs" />
       </list>
     </option>
   </component>
@@ -150,8 +120,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609172872956</updated>
-      <workItem from="1609172877585" duration="7195000" />
+      <workItem from="1609172877585" duration="8022000" />
     </task>
+    <task id="LOCAL-00001" summary="Example">
+      <created>1609180323395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609180323395</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +150,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1436" y="565" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1609177407980">
@@ -274,6 +254,10 @@
       <screen x="0" y="0" width="3378" height="1440" />
     </state>
     <state x="1190" y="365" width="1639" height="710" key="SettingsEditor/0.0.3378.1440@0.0.3378.1440" timestamp="1609179109603" />
+    <state x="1281" y="453" key="Vcs.Push.Dialog.v2" timestamp="1609180326452">
+      <screen x="0" y="0" width="3378" height="1440" />
+    </state>
+    <state x="1281" y="453" key="Vcs.Push.Dialog.v2/0.0.3378.1440@0.0.3378.1440" timestamp="1609180326452" />
     <state x="1506" y="410" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609173575976">
       <screen x="0" y="0" width="3378" height="1440" />
     </state>

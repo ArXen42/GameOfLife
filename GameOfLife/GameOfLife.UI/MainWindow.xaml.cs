@@ -17,8 +17,8 @@ namespace GameOfLife.UI
 			Task.Run(
 				async () =>
 				{
-					var gameState = new BooleanArrayGameState();
-					var renderer  = new GameStateRenderer();
+					var       gameState = new BooleanArrayGameState();
+					using var renderer  = new GameStateRenderer();
 
 					gameState.SetIsAlive(4, 4, true);
 					gameState.SetIsAlive(5, 4, true);
@@ -26,7 +26,7 @@ namespace GameOfLife.UI
 					gameState.SetIsAlive(6, 5, true);
 					gameState.SetIsAlive(5, 6, true);
 
-					while (true)
+					while (true) // TODO: play, pause, fps control, etc, etc
 					{
 						var bitmapSource = renderer.Render(gameState);
 						Dispatcher.Invoke(() => RenderImage.Source = bitmapSource);
@@ -34,6 +34,8 @@ namespace GameOfLife.UI
 						gameState.Advance();
 						await Task.Delay(TimeSpan.FromMilliseconds(16));
 					}
+
+					// ReSharper disable once FunctionNeverReturns
 				}
 			);
 		}
