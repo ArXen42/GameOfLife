@@ -1,9 +1,17 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <OutputType>WinExe</OutputType>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <TargetFramework>net5.0-windows</TargetFramework>
         <UseWPF>true</UseWPF>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="OpenCvSharp4.Windows" Version="4.5.1.20201226" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\GameOfLife.Core\GameOfLife.Core.csproj" />
+    </ItemGroup>
 
 </Project>

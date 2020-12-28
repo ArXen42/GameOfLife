@@ -1,28 +1,41 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using GameOfLife.Core;
 
 namespace GameOfLife.UI
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
-    {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
-    }
+	/// <summary>
+	/// Interaction logic for MainWindow.xaml
+	/// </summary>
+	public partial class MainWindow : Window
+	{
+		public MainWindow()
+		{
+			InitializeComponent();
+
+			Task.Run(
+				async () =>
+				{
+					var gameState = new BooleanArrayGameState();
+					var renderer  = new GameStateRenderer();
+
+					gameState.SetIsAlive(4, 4, true);
+					gameState.SetIsAlive(5, 4, true);
+					gameState.SetIsAlive(6, 4, true);
+					gameState.SetIsAlive(6, 5, true);
+					gameState.SetIsAlive(5, 6, true);
+
+					while (true)
+					{
+						var bitmapSource = renderer.Render(gameState);
+						Dispatcher.Invoke(() => RenderImage.Source = bitmapSource);
+
+						gameState.Advance();
+						await Task.Delay(TimeSpan.FromMilliseconds(16));
+					}
+				}
+			);
+		}
+	}
 }

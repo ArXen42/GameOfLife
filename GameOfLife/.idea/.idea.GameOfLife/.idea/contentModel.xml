@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\repma\.Rider2019.3\config\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\repma\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\repma\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_GameOfLife.-727306811.00" t="ExcludeRecursive" />
-    <e p="C:\Users\repma\RiderProjects\GameOfLife\GameOfLife" t="IncludeFlat">
-      <e p="GameOfLife.Core" t="IncludeRecursive">
+    <e p="C:\r\GameOfLife\GameOfLife" t="IncludeFlat">
+      <e p="GameOfLife.ConsoleUI" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Board.cs" t="Include" />
-        <e p="Cell.cs" t="Include" />
-        <e p="GameOfLife.Core.csproj" t="IncludeRecursive" />
+        <e p="GameOfLife.ConsoleUI.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="GameOfLife.Core.AssemblyInfo.cs" t="Include" />
+            <e p="net5.0" t="Include">
+              <e p="GameOfLife.ConsoleUI.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+      </e>
+      <e p="GameOfLife.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BooleanArrayGameState.cs" t="Include" />
+        <e p="GameOfLife.Core.csproj" t="IncludeRecursive" />
+        <e p="IGameState.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="GameOfLife.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
       </e>
       <e p="GameOfLife.sln" t="IncludeFlat" />
       <e p="GameOfLife.UI" t="IncludeRecursive">
@@ -26,11 +34,12 @@
         <e p="AssemblyInfo.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="GameOfLife.UI.csproj" t="IncludeRecursive" />
+        <e p="GameStateRenderer.cs" t="Include" />
         <e p="MainWindow.xaml" t="Include" />
         <e p="MainWindow.xaml.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
+            <e p="net5.0-windows" t="Include">
               <e p="App.g.cs" t="Include" />
               <e p="GameOfLife.UI.AssemblyInfo.cs" t="Include" />
               <e p="MainWindow.g.cs" t="Include" />
@@ -40,5 +49,9 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
+    <e p="C:\Users\ArXen42\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ArXen42\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_GameOfLife.-200796952.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ArXen42\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\ArXen42\AppData\Roaming\JetBrains\Rider2020.2\extensions" t="IncludeRecursive" />
   </component>
 </project>
